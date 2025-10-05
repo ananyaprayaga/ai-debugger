@@ -1,0 +1,22 @@
+{
+  "name": "ai-debugger-vscode",
+  "displayName": "AI Debugger",
+  "description": "Open the AI Debugger web UI (local Flask server) inside VS Code",
+  "version": "0.0.1",
+  "publisher": "ananyaprayaga",
+  "engines": {
+    "vscode": "^1.60.0"
+  },
+  "activationEvents": [
+    "onCommand:aiDebugger.open"
+  ],
+  "main": "extension.js",
+  "contributes": {
+    "commands": [
+      {
+        "command": "aiDebugger.open",
+        "title": "AI Debugger: Open Web UI"
+      }
+    ]
+  }
+}
